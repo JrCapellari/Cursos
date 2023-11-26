@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+    font: normal 15px arial;
+}
+header{
+    font: normal 15px arial;
+    color: brown;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.230);
+}
+input#num{
+    width: 40px;
+}
+select#tab{
+    width: 160px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}

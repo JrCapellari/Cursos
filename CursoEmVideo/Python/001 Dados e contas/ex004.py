@@ -1,0 +1,8 @@
+valor = input('Digite qualquer coisa: ')
+print('Qual tipo: ', type(valor))
+print('É alfabetico: ', valor.isalpha())
+print('É um número: ', valor.isnumeric())
+print('Esta em caixa alta: ', valor.isupper())
+print('Esta em caixa baixa: ', valor.islower())
+print('Esta capitalizada: ', valor.istitle())
+print('É alfanumerico: ', valor.isalnum())

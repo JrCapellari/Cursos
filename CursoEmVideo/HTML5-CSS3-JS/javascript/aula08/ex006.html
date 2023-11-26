@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex006</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font:normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <script>                                               
+        var n1 = 21
+        var n2 = 7
+        document.write(`${n1} é igual a ${n2}: ${n1 == n2}<br>`)
+        document.write(`${n1} é diferente de ${n2}: ${n1 != n2}<br>`)
+        document.write(`${n1} é maior que ${n2}: ${n1 > n2}<br>`)
+        document.write(`${n1} é menor que ${n2}: ${n1 < n2}<br>`)
+        // operador de identidade (são identicos? testa o tipo e grandeza)
+        var n3 = 5
+        var n4 = '5'
+        document.write(`${n3} é igual a ${n4}: ${n3 == n4}<br>`)
+        document.write(`${n3} é identico a ${n4}: ${n3 === n4}<br>`)
+        // operador ternário
+        var media = 7
+        status = media >= 7 ? 'APROVADO' : 'REPROVADO'
+        document.write(`Você foi: ${status}`)
+    </script>
+</body>
+</html>

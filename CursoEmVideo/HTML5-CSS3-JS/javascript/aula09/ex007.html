@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudos DOM</title>
+    <style>
+        body {
+            background-color: bisque;
+            color: brown;
+            font: normal 12pt arial;
+        }
+        h1{
+            font: normal 21pt arial;
+        }
+        p{
+            font: normal 14pt arial;
+            line-height: 50%;
+        }
+        div{
+            font: normal 15pt arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">clique aqui</div>
+    <script>
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[1]
+        document.write(`Escrito assim: ${p1.innerHTML}`)
+        //alert(p1.innerText)
+        corpo.style.background = 'lemonchiffon'
+        /*
+        p1.style.color = 'blue'
+        var d = window.document.getElementById('msg')
+        d.style.background = 'aquamarine'
+        d.innerText = 'Texto substituido'
+        */
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'aquamarine'
+        d.style.color = 'blue'
+        d.innerHTML = 'Texto substituido'
+
+    </script>    
+</body>
+</html>

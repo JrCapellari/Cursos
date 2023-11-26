@@ -1,0 +1,5 @@
+cid = str(input('Digite o nome da cidade: ')).strip()
+cidc = cid.title()
+lista = cidc.split()
+print(lista)
+print('Santo' in lista[0])
