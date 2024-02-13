@@ -1,7 +1,7 @@
 package arrays;
 import java.util.Arrays;
 
-public class exercicios {
+public class Exercicios {
     public static void main(String[] args) {
         
         double[] notasAlunoA = new double[3];
