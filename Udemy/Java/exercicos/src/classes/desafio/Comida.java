@@ -1,4 +1,4 @@
-package classe.desafio;
+package classes.desafio;
 
 public class Comida {
     //Atributos
