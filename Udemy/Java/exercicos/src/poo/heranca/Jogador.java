@@ -2,18 +2,18 @@ package poo.heranca;
 
 public class Jogador {
     // Atributos
-    int vida = 100;
+    public int vida = 100;
     int x;
     int y;
 
     // Construtor
-    Jogador(int x, int y){
+    protected Jogador(int x, int y){
         this.x = x;
         this.y = y;
     }
     
     // Metodos
-    boolean atacar(Jogador oponente){
+   public boolean atacar(Jogador oponente){
         int deltaX = Math.abs(x - oponente.x);
         int deltaY = Math.abs(y - oponente.y);
 
@@ -27,7 +27,7 @@ public class Jogador {
             return false;
         }
     }
-    boolean andar(Direcao direcao){
+   public boolean andar(Direcao direcao){
         switch (direcao) {
             case norte:
                 y--;
@@ -48,7 +48,6 @@ public class Jogador {
             y++;
             
         }
-
         return true;*/
     }
 }

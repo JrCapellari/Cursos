@@ -1,4 +1,7 @@
-package poo.heranca.desafio;
+package poo.heranca.teste;
+
+import poo.heranca.desafio.Ferrari;
+import poo.heranca.desafio.Fusca;
 
 public class Rodar {
     public static void main(String[] args) {
@@ -16,19 +19,16 @@ public class Rodar {
 
         System.out.println(fusca);
 
-        Ferrari ferrari = new Ferrari(200);
+        Ferrari ferrari = new Ferrari (200);
+        ferrari.ligarTurbo();
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.acelerar();
+        ferrari.frear();
+        ferrari.frear();
+        ferrari.desligarTurbo();
         ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();
-        ferrari.acelerar();  // aqui deveria ser 220Km/h
-        
+
 
         System.out.println(ferrari);
     }

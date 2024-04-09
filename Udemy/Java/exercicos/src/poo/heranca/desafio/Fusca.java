@@ -3,8 +3,8 @@ package poo.heranca.desafio;
 public class Fusca extends Carro {
 
     //Construtor
-    Fusca(int velocidadeMaxima){
+    public Fusca(int velocidadeMaxima){
         super(velocidadeMaxima);
-        delta = 10;
+        setDelta(10);
     }
 }
