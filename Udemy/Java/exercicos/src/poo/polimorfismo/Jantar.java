@@ -6,6 +6,7 @@ public class Jantar {
         Arroz ingrediente1 = new Arroz(0.200);
         Feijao ingrediente2 = new Feijao(0.100);
 
+
         System.out.println(convidado.getPeso());
 
         convidado.comer(ingrediente1);
